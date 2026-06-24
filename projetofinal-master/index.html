@@ -1,29 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-
-    <title>Document</title>
-
+    <title>Jogo de Precisão</title>
 </head>
-
 <body>
-
     <div class="canvas">
-        <canvas width="700" height="500"></canvas>
-
+        <canvas id="tela" width="700" height="500"></canvas>
         <div class="max-width">
             <h1 id="counter">00:00:00</h1>
+            <p id="msg">Acerte o alvo 5 vezes no menor tempo possível!</p>
+            <button onclick="reiniciar()">Reiniciar</button>
         </div>
-
     </div>
-
     <script type="text/javascript" src="script.js"></script>
-
 </body>
-
 </html>
